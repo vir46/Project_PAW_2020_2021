@@ -1,0 +1,117 @@
+body{
+    background:#F2CEAD;
+}
+
+.nav-wrapper{
+    background: black;
+}
+
+.headtitle{
+    position: relative;
+    width: 100vw;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+
+a.browsebtn{
+    border-radius: 10px;
+    font-size: 1.5rem;
+    font-family: "Arial";
+    background-color: orangered;
+    width: fit-content;
+    color: white;
+    font-weight: bold;
+    padding: 6px;
+}
+
+.title{
+    font-size: 6rem;
+    font-family: "Oleo Script";
+    font-style: italic;
+    color: white;
+    background-color: black;
+}
+
+.texthead{
+    position: flex;
+    text-align: center;
+    z-index: 1;
+}
+
+div.videobg-cont{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+video.videobg-cont{
+    width: 100vw;
+    margin-top: -300px;
+}
+.link-nav{
+    color: white;
+    font-weight: bolder;
+}
+
+.link-nav:hover{
+    color: yellow;
+    margin-top: -2px;
+}
+.logo-br{
+    filter: invert();
+}
+
+.list-nav:hover{
+    background: grey;
+}
+
+.imgtitle{
+    position: relative;
+    width: 100vw;
+    height: 29vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin-top: -12vh;
+    animation: floating1 5s infinite;
+}
+
+img.imglink{
+    box-shadow: 17px 15px 17px rgba(0, 0, 0, 0.4);
+    border-radius: 15px;
+    width: 8vw;
+    height: 20vh;
+}
+
+a.imglink{
+    padding: 5vw;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+a.imglink:hover{
+    padding-bottom: 3vh;
+}
+
+div.textfloat{
+    position: relative;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-style: italic;
+    opacity: 1;
+}
+
+@keyframes floating1{
+    0% {top: 0px;}
+    50% {top: 15px;}
+    100%{top: 0px;}
+}
+
+
