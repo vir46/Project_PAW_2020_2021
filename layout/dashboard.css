@@ -1,5 +1,6 @@
 body{
     background:#F2CEAD;
+    overflow-x: hidden;
 }
 
 .nav-wrapper{
@@ -15,7 +16,6 @@ body{
     justify-content: center;
     overflow: hidden;
 }
-
 
 a.browsebtn{
     border-radius: 10px;
@@ -79,7 +79,7 @@ video.videobg-cont{
     justify-content: center;
     overflow: hidden;
     margin-top: -12vh;
-    animation: floating1 5s infinite;
+    animation: floating1 3s infinite;
 }
 
 img.imglink{
@@ -108,10 +108,48 @@ div.textfloat{
     opacity: 1;
 }
 
+.promoct{
+    position: relative;
+    width: 100vw;
+    height: 29vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.titlepromo{
+    color: red;
+    font-weight: bold;
+    font-style: italic;
+}
+
+a.promolink{
+    padding-top: 20vh;
+}
+
+.txtpromo{
+    color: white;
+    padding-left: 1vw;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: -35vh;
+}
+
+.imgpromo:hover .txtpromo{
+    color: red;
+}
+
+.imgpromo{
+    position: relative;
+    display: flex;
+    z-index: -1;
+    width: 35vw;
+    height: 35vh;
+}
+
 @keyframes floating1{
     0% {top: 0px;}
     50% {top: 15px;}
     100%{top: 0px;}
 }
-
 
