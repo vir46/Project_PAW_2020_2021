@@ -183,6 +183,14 @@ a.promolink:hover .imgpromo{
 
 .reviewlogo{
     width: 10vw;
+    box-shadow: 17px 15px 17px rgba(0, 0, 0, 0.2);
+    border-radius: 20%;
+}
+
+.containlogo{
+    animation: floating1 3s infinite;
+    padding-bottom: 40px;
+    
 }
 
 .row{
