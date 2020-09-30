@@ -155,6 +155,7 @@ a.promolink:hover .txtpromo{
 
 a.promolink:hover .imgpromo{
     filter:grayscale(80%);
+    border-radius: 0% 0% 15%;
 }
 
 .imgpromo{
@@ -171,3 +172,39 @@ a.promolink:hover .imgpromo{
     100%{top: 0px;}
 }
 
+.reviewtitle{
+    position: relative;
+    width: 100vw;
+    height: 29vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.reviewlogo{
+    width: 10vw;
+}
+
+.row{
+    width: 450px;
+    margin: 0;
+    display: flexbox;
+    align-items: center;
+}
+
+
+div.card-image, .card, .card-content, .card-action{
+    width: 430px;
+
+}
+
+img.card-image{
+    width: fit-content;
+    height: 250px;
+}
+
+span.card-title{
+    font-family: Arial;
+    font-style: italic;
+    
+}
