@@ -1,3 +1,4 @@
+
 body{
     background:#F2CEAD;
     overflow-x: hidden;
@@ -10,7 +11,7 @@ body{
 .headtitle{
     position: relative;
     width: 100vw;
-    height: 600px;
+    height: 60vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -47,13 +48,14 @@ div.videobg-cont{
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 100vw;
 }
 
 video.videobg-cont{
-    width: 100vw;
-    margin-top: -300px;
+    margin-top: -15vh;
+    min-width: 100vw;
 }
+
 .link-nav{
     color: white;
     font-weight: bolder;
@@ -86,7 +88,7 @@ video.videobg-cont{
 img.imglink{
     box-shadow: 17px 15px 17px rgba(0, 0, 0, 0.4);
     border-radius: 15px;
-    width: 8vw;
+    width: 150px;
     height: 20vh;
 }
 
@@ -159,8 +161,8 @@ a.promolink:hover .imgpromo{
     position: relative;
     display: flex;
     z-index: -1;
-    width: 35vw;
-    height: 35vh;
+    width: 672px;
+    height: 327.95px;
 }
 
 @keyframes floating1{
