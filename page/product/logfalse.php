@@ -3,14 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../layout/logfalse.css">
+    <!-- Link Wajib -->
     <link rel="icon" href="http://www.pngall.com/wp-content/uploads/2016/09/Musical-Notes-Free-Download-PNG.png" type="image/png" sizes="16x16">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <link rel="stylesheet" href="../../layout/logfalse.css">
-    <!-- Css Wajib -->
     <link rel="stylesheet" href="../../layout/navbar.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!--  -->
-    <title>Product - Not Found</title>
+    <title>Product - ERROR 404</title>
 </head>
 <body>
     <!-- Navigasi Bar Dashboard-->
@@ -31,7 +32,15 @@
       <!-- Card -->
       <div class="errorct">
           <div class="errorbody">
-            ss
+            <div class="errorctx">
+            <div class="containicon"><i class="small material-icons"><a class="redtxt" href="../../index.php">clear</a></i></div>
+                <div class="txterror1 redtxt">
+                  NO LOGIN DETECTED
+                </div>
+                <div class="txterror2">
+                  Login Required To Use This Features !
+                </div>
+            </div>
           </div>
       </div>
       <!-- Footer -->

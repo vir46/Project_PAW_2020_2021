@@ -5,12 +5,63 @@
     width: 100vw;
     justify-content: center;
     align-items: center;
+    margin-top: 30vh;
+    animation: floating1 3s infinite;
 }
 
 .errorbody{
     position: relative;
-    background: red;
+    background: #C4C4C4;
     align-items: center;
     width: 30vw;
+    height: 20vh;
 }
 
+.errorttl{
+    color: white;
+    font-weight: 900;
+}
+
+.txterror1{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.txterror2{
+    font-style: italic;
+}
+
+.errorbody{
+    display: flex;
+    justify-content: center;
+    box-shadow: 17px 15px 17px rgba(0, 0, 0, 0.4);
+    align-items: center;
+    border-radius: 25px;
+}
+
+.txterror1{
+    font-weight: 700;
+}
+
+.redtxt{
+    color: red;
+}
+
+.containicon{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 3vh;
+    width: 100%;
+}
+
+
+@keyframes floating1{
+    0% {top: 0px;}
+    50% {top: 15px;}
+    100%{top: 0px;}
+}
+
+i.redtxt:hover{
+    font-size: 90px;
+}
