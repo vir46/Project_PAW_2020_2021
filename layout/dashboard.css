@@ -228,3 +228,7 @@ span.card-title{
     width: 6vw;
     height: 6vh;
 }
+
+.page-footer, .container{
+    background-color: black;
+  }

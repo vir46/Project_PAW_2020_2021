@@ -24,3 +24,22 @@ body{
 .list-nav:hover{
   background: grey;
 }
+
+.page-footer, .container{
+  background-color: black;
+}
+
+.page-footer{
+  position:absolute;
+  bottom:0;
+}
+
+.disclaimer{
+  margin-top: 4vh;
+  font-size: 0.8rem;
+  font-weight: bold;
+  font-style: italic;
+  color: yellow;
+}
+
+

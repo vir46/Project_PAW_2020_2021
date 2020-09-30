@@ -1,0 +1,16 @@
+.errorct{
+    margin-top: 40vh;
+    position: relative;
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.errorbody{
+    position: relative;
+    background: red;
+    align-items: center;
+    width: 30vw;
+}
+
