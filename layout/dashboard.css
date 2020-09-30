@@ -194,6 +194,7 @@ a.promolink:hover .imgpromo{
 }
 
 .row{
+    padding-top: 8vh;
     width: 450px;
     margin: 0;
     display: flexbox;
@@ -214,5 +215,18 @@ img.card-image{
 span.card-title{
     font-family: Arial;
     font-style: italic;
-    
+}
+
+.row:hover .card-content{
+    height: 150px;
+}
+
+.textcollab{
+    width: fit-content;
+    font-size: 1.3rem;
+}
+
+.imgfooter{
+    width: 6vw;
+    height: 6vh;
 }

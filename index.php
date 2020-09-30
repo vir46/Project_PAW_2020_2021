@@ -97,11 +97,12 @@
                       -webkit-text-stroke: 0.6px white;">Singer</span>
                     </div>
                     <div class="card-content">
-                      <p>I am a very simple card. I am good at containing small bits of information.
-                      I am convenient because I require little markup to use effectively.</p>
+                      <p>Cukup dua kata ajasih kalau dari aku, "The Best" . Buat yang ga pernah
+                          denger toko ini, parah sih.
+                      </p>
                     </div>
                     <div class="card-action">
-                      <a href="#">Ari Lasso</a>
+                      <a href="https://www.instagram.com/ari_lasso/">Ari Lasso</a>
                     </div>
                   </div>
                 </div>
@@ -116,11 +117,10 @@
                       -webkit-text-stroke: 0.6px white;">Music Composer</span>
                     </div>
                     <div class="card-content">
-                      <p>I am a very simple card. I am good at containing small bits of information.
-                      I am convenient because I require little markup to use effectively.</p>
+                      <p>Semua barang ada disini, mulai dari peralatan preproduksi sampai alat mix lengkap.</p>
                     </div>
                     <div class="card-action">
-                      <a href="#">Eka Gustiwana</a>
+                      <a href="https://www.instagram.com/ekagustiwana/">Eka Gustiwana</a>
                     </div>
                   </div>
                 </div>
@@ -135,15 +135,40 @@
                       -webkit-text-stroke: 0.6px white;">Content Creator</span>
                     </div>
                     <div class="card-content">
-                      <p>I am a very simple card. I am good at containing small bits of information.
-                      I am convenient because I require little markup to use effectively.</p>
+                      <p>Seneng bangeeeeettt! akhirnya bisa bikin musik disini + rekaman disini,
+                          hasilnya ga aku kira, makasih MIS.
+                      </p>
                     </div>
                     <div class="card-action">
-                      <a href="#">Misellia Ikwan</a>
+                      <a href="https://www.instagram.com/misellia_/">Misellia Ikwan</a>
                     </div>
                   </div>
                 </div>
               </div>
       </div>
+      <!-- Footer -->
+      <footer class="page-footer" style="margin-top: 15vh; width: 100vw;">
+        <div class="container">
+          <div class="row">
+            <div class="col l6 s12">
+              <h5 class="white-text">Music Instrumental Store</h5>
+              <p class="grey-text text-lighten-4">MIS is the biggest music store in Indonesia, cooperating with many international music producers.</p>
+            </div>
+            <div class="col l4 offset-l1 t12">
+              <h5 class="white-text textcollab">In Collaboration with</h5>
+              <ul>
+                <li><a href="https://hq.vevo.com/"><img class="imgfooter" src="https://s3-us-west-1.amazonaws.com/static-spin-com/files/2018/05/vevo_logo_white-1527177207-compressed.png"></a></li>
+                <li><a href="https://music.disney.com/"><img class="imgfooter" src="https://charlottehelenbaconfoundation.org/wp-content/uploads/2014/06/gallery-3-disney-music-logo-XL.jpg"></a></li>
+                <li><a href="https://www.sonymusic.com/"><img class="imgfooter" src="https://miro.medium.com/max/750/1*RT5Vwgtkd-OX679qdLn6vw.png  "></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer-copyright">
+          <div class="container">
+          © 2020 Kelompok 7 PAW | Atma Jaya University
+          </div>
+        </div>
+      </footer>
 </body>
 </html>
