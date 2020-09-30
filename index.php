@@ -166,7 +166,7 @@
         </div>
         <div class="footer-copyright">
           <div class="container">
-          © 2020 Kelompok 7 PAW | Atma Jaya University
+          © 2020 Kelompok 7 PAW | Atma Jaya Yogyakarta University
           </div>
         </div>
       </footer>

@@ -1,0 +1,26 @@
+.nav-wrapper{
+  background: black;
+}
+
+.logo-br{
+  filter: invert();
+}
+
+.link-nav{
+  color: white;
+  font-weight: bolder;
+}
+
+.link-nav:hover{
+  color: yellow;
+  margin-top: -2px;
+}
+
+body{
+  background:#F2CEAD;
+  overflow-x: hidden;
+}
+
+.list-nav:hover{
+  background: grey;
+}
