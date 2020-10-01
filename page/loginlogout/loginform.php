@@ -14,6 +14,9 @@
     <title>Sign In</title>
 </head>
 <body>
+  <div id="particles-js"></div>
+  <script type="text/javascript" src="../../script/particles.js"></script>
+  <script type="text/javascript" src="../../script/app.js"></script>
     <!-- Navigasi Bar Dashboard-->
     <div class="navbar-fixed">
         <nav>
@@ -47,6 +50,11 @@
               <input id="icon_prefix" type="password" class="validate">
               <label for="icon_prefix">Password</label>
             </div>
+          </div>
+          <div class="submitct">
+            <button class="btn waves-effect waves-light" type="submit" name="action">Log-in
+              <i class="material-icons right">send</i>
+            </button>
           </div>
         </form>
       </div>
