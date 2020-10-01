@@ -64,8 +64,8 @@
             </div>
             <div class="input-field col s12">
             <select>
-            <option value="3">Male</option>
-            <option value="4">Female</option>
+            <option value="1">Male</option>
+            <option value="2">Female</option>
             </select>
             <label>Gender</label>
             </div>
