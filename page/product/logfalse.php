@@ -14,9 +14,6 @@
     <title>Product - ERROR 404</title>
 </head>
 <body>
-  <div id="particles-js"></div>
-  <script type="text/javascript" src="../../script/particles.js"></script>
-  <script type="text/javascript" src="../../script/app.js"></script>
     <!-- Navigasi Bar Dashboard-->
     <div class="navbar-fixed">
         <nav>
