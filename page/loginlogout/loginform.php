@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../../layout/logfalse.css">
+    <link rel="stylesheet" href="../../layout/login.css">
     <!-- Link Wajib -->
     <link rel="icon" href="http://www.pngall.com/wp-content/uploads/2016/09/Musical-Notes-Free-Download-PNG.png" type="image/png" sizes="16x16">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="../../layout/navbar.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!--  -->
-    <title>Product - ERROR 404</title>
+    <title>Sign In</title>
 </head>
 <body>
     <!-- Navigasi Bar Dashboard-->
@@ -22,7 +22,7 @@
                 style="height: 30pt; margin: 10pt; margin-left:20pt ;"></a>
             <ul class="right hide-on-med-and-down">
                 <li class="list-nav"><a class="link-nav active" href="../../index.php">Dashboard</a></li>
-                <li class="list-nav"><a class="link-nav" href="../loginlogout/loginform.php">Sign In</a></li>
+                <li class="list-nav"><a class="link-nav" href="../product/logfalse.php">Product</a></li>
                 <li class="list-nav"><a class="link-nav" href="sass.html">Sign Up</a></li>
                 <li class="list-nav"><a class="link-nav" href="badges.html">Contact</a></li>
             </ul>
@@ -30,19 +30,8 @@
         </nav>
       </div>
       <!-- Card -->
-      <div class="errorct">
-          <div class="errorbody">
-            <div class="errorctx">
-            <div class="containicon"><i class="small material-icons"><a class="redtxt" href="../../index.php">clear</a></i></div>
-                <div class="txterror1 redtxt">
-                  NO LOGIN DETECTED
-                </div>
-                <div class="txterror2">
-                  Login Required To Use This Features !
-                </div>
-            </div>
-          </div>
-      </div>
+      
+
       <!-- Footer -->
       <footer class="page-footer" style="margin-top: 15vh; width: 100vw;">
         <div class="container">
