@@ -67,8 +67,8 @@
             <div class="form-group col">
               <select id="gender" name="gender" class="form-control" required>
                 <option value="" disabled selected>Choose your gender</option>
-                <option value="male">Option 1</option>
-                <option value="female">Option 2</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
               </select>
               <label>Gender<label>
             </div>
