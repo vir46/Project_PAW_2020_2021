@@ -29,9 +29,10 @@
           </div>
         </nav>
       </div>
-      <!-- Form Login -->\
-      <div class="">
-  <!--<div class="row">
+      <!-- Form Login -->
+      <div class="cardform">
+      <div class="cardform2">
+      <div class="row">
         <form class="col s12">
           <div class="row">
             <div class="input-field col s6">
@@ -46,7 +47,8 @@
             </div>
           </div>
         </form>
-      </div> -->
+      </div>
+      </div>
       </div>
       <!-- Footer -->
       <footer class="page-footer" style="margin-top: 15vh; width: 100vw;">
