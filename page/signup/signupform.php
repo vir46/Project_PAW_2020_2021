@@ -29,9 +29,6 @@
           </div>
         </nav>
       </div>
-      <!-- Card -->
-      
-      
       <!-- Form Sign Up -->
       <div class="row">
         <form class="col s12" class="needs-validation" novalidate>
@@ -64,13 +61,13 @@
             </div>
           </div>
           <div class="row">
-            <div class="form-group col">
-              <select id="gender" name="gender" class="form-control" required>
-                <option value="" disabled selected>Choose your gender</option>
-                <option value="male">Male</option>
-                <option value="female">Female</option>
-              </select>
-              <label>Gender<label>
+            </div>
+            <div class="input-field col s12">
+            <select>
+            <option value="3">Male</option>
+            <option value="4">Female</option>
+            </select>
+            <label>Gender</label>
             </div>
           </div> 
           <div class="row">
@@ -86,7 +83,7 @@
       </div>
 
       <!-- Footer -->
-      <!-- <footer class="page-footer" style="margin-top: 15vh; width: 100vw;">
+      <footer class="page-footer" style="margin-top: 15vh; width: 100vw;">
         <div class="container">
           <div class="row">
             <div class="col l6 s12">
@@ -108,6 +105,6 @@
           © 2020 Kelompok 7 PAW | Atma Jaya Yogyakarta University
           </div>
         </div>
-      </footer> -->
+      </footer>
 </body>
 </html>
