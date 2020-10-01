@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="../../layout/navbar.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!--  -->
-    <title>Sign In</title>
+    <title>Sign Up</title>
 </head>
 <body>
     <!-- Navigasi Bar Dashboard-->
@@ -31,54 +31,62 @@
       </div>
       <!-- Card -->
       
+      
       <!-- Form Sign Up -->
-      <form>
-        <div class="row">
-        <div class="col-xs-12 col-sm-12 col-md-12">
-            <div class="form-group">
-                <strong>Username</strong>
-                <input name="username" class="input" type="text" placeholder="Your new username">
+      <div class="row">
+        <form class="col s12" class="needs-validation" novalidate>
+          <div class="row">
+            <div class="input-field col s6">
+              <input id="firstname" type="text" class="validate" required>
+              <label for="firstname">First Name</label>              
             </div>
-            <div class="form-group">
-                <strong>First name</strong>
-                <input name="firstname" class="input" type="text" placeholder="First Name">
+            <div class="input-field col s6">
+              <input id="lastname" type="text" class="validate" required>
+              <label for="lastname">Last Name</label>              
             </div>
-            <div class="form-group">
-                <strong>Last name</strong>
-                <input name="lastname" class="input" type="text" placeholder="Last Name">
+          </div>
+          <div class="row">
+            <div class="input-field col s12">
+              <input id="username" type="text" class="validate" required>
+              <label for="username">Username</label>             
             </div>
-            <div class="form-group">
-                <strong>Email</strong>
-                <input name="email" class="input" type="text" placeholder="examplexxxx@email.com">
+          </div>
+          <div class="row">
+            <div class="input-field col s12">
+              <input id="email" type="email" class="validate" required>
+              <label for="email">Email</label>              
             </div>
-            <div class="form-group">
-                <strong>Password</strong>
-                <input name="password" class="input" type="text" placeholder="Password must be more than 6 characters">
+          </div>          
+          <div class="row">
+            <div class="input-field col s12">
+              <input id="password" type="password" class="validate" required>
+              <label for="password">Password</label>
             </div>
-            <div class="form-group">
-                <strong>Date of Birth<strong>
-                <input name="birthdate" class="input" type="date" placeholder="dd/mm/yyyy">
+          </div>
+          <div class="row">
+            <div class="form-group col">
+              <select id="gender" name="gender" class="form-control" required>
+                <option value="" disabled selected>Choose your gender</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+              </select>
+              <label>Gender<label>
             </div>
-            <div class="field">
-                  <p class="control">
-                      <label class="label">Gender</label>
-                      <div class="select">
-                          <select name="gender" id="gender">
-                              <option value="male">Male</option>
-                              <option value="female">Female</option>                            
-                          </select>
-                      </div>
-                  </p>
-            </div>    
-            <div class="col-xs-12 col-sm-12 col-md-12 text-center">
-                  <button type="submit" class="btn btn-primary">Sign up</button>
-            </div>  
-        </div>         
-      </form>
-
+          </div> 
+          <div class="row">
+            <div class="input-field col s12">
+              <input id="birthdate" type="date" class="validate">
+              <label for="birthdate">Date of Birth</label>
+            </div>
+          </div>   
+          <button type="submit" class="btn btn-primary">Sign Up</button>  
+          <br>    
+          <small>Already have account ? <a href="../loginlogout/loginform.php">Login</a></small>
+        </form>
+      </div>
 
       <!-- Footer -->
-      <footer class="page-footer" style="margin-top: 15vh; width: 100vw;">
+      <!-- <footer class="page-footer" style="margin-top: 15vh; width: 100vw;">
         <div class="container">
           <div class="row">
             <div class="col l6 s12">
@@ -100,6 +108,6 @@
           © 2020 Kelompok 7 PAW | Atma Jaya Yogyakarta University
           </div>
         </div>
-      </footer>
+      </footer> -->
 </body>
 </html>
