@@ -12,3 +12,7 @@
     background: #c4c4c4;
     border-radius: 25px;
 }
+
+div.input-field{
+    padding-left: 8vw;
+}
