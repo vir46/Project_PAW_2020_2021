@@ -3,8 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Tiap Page Yg ini dibuat sendiri cssnya -->
-    <link rel="stylesheet" href="../../layout/signup.css">
     <!-- Link Wajib -->
     <link rel="icon" href="http://www.pngall.com/wp-content/uploads/2016/09/Musical-Notes-Free-Download-PNG.png" type="image/png" sizes="16x16">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
@@ -12,6 +10,8 @@
     <link rel="stylesheet" href="../../layout/navbar.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!--  -->
+    <!-- Tiap Page Yg ini dibuat sendiri cssnya -->
+    <link rel="stylesheet" href="../../layout/signup.css">
     <title>Sign Up</title>
 </head>
 <body>
@@ -39,7 +39,7 @@
           <div class="row">
             <div class="input-field col s6">
               <input id="firstname" type="text" class="validate" required>
-              <label for="firstname">First Name</label>              
+              <label for="firstname">First Name</label>
             </div>
             <div class="input-field col s6">
               <input id="lastname" type="text" class="validate" required>
@@ -65,15 +65,19 @@
             </div>
           </div>
           <div class="row">
-            </div>
-            <div class="input-field col s12">
-            <select>
-            <option value="1">Male</option>
-            <option value="2">Female</option>
-            </select>
-            <label>Gender</label>
-            </div>
-          </div> 
+            <p>
+              <label>
+                <input name="group1" type="radio" checked />
+                <span>Man</span>
+              </label>
+            </p>
+          <p>
+          <label>
+                <input name="group1" type="radio" />
+              <span>Girl</span>
+            </label>
+          </p>
+          </div>
           <div class="row">
             <div class="input-field col s12">
               <input id="birthdate" type="date" class="validate">
