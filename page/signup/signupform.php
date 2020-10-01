@@ -79,7 +79,7 @@
               <label for="birthdate">Date of Birth</label>
             </div>
           </div>   
-          <button type="submit" class="btn btn-primary">Sign Up</button>  
+          <button name="signup" type="submit" class="btn btn-primary">Sign Up</button>  
           <br>    
           <small>Already have account ? <a href="../loginlogout/loginform.php">Login</a></small>
         </form>
