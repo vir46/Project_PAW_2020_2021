@@ -31,7 +31,10 @@
         </nav>
       </div>
       <!-- Form Sign Up -->
-      <div class="row">
+      <main>
+      <div class="cardform">
+        <div class="cardform2">
+        <div class="row">
         <form class="col s12" class="needs-validation" novalidate>
           <div class="row">
             <div class="input-field col s6">
@@ -40,21 +43,21 @@
             </div>
             <div class="input-field col s6">
               <input id="lastname" type="text" class="validate" required>
-              <label for="lastname">Last Name</label>              
+              <label for="lastname">Last Name</label>
             </div>
           </div>
           <div class="row">
             <div class="input-field col s12">
               <input id="username" type="text" class="validate" required>
-              <label for="username">Username</label>             
+              <label for="username">Username</label>
             </div>
           </div>
           <div class="row">
             <div class="input-field col s12">
               <input id="email" type="email" class="validate" required>
-              <label for="email">Email</label>              
+              <label for="email">Email</label>
             </div>
-          </div>          
+          </div>
           <div class="row">
             <div class="input-field col s12">
               <input id="password" type="password" class="validate" required>
@@ -76,15 +79,17 @@
               <input id="birthdate" type="date" class="validate">
               <label for="birthdate">Date of Birth</label>
             </div>
-          </div>   
+          </div>
           <button name="signup" type="submit" class="btn btn-primary">Sign Up</button>  
-          <br>    
+          <br>
           <small>Already have account ? <a href="../loginlogout/loginform.php">Login</a></small>
         </form>
       </div>
-
+        </div>
+      </div>
+      </main>
       <!-- Footer -->
-      <footer class="page-footer" style="margin-top: 15vh; width: 100vw;">
+      <footer class="page-footer" style="width: 100vw;">
         <div class="container">
           <div class="row">
             <div class="col l6 s12">

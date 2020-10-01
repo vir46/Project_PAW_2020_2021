@@ -34,6 +34,7 @@
         </nav>
       </div>
       <!-- Form Login -->
+      <main>
       <div class="cardform">
       <div class="cardform2">
       <div class="row">
@@ -61,8 +62,9 @@
       </div>
       </div>
       </div>
+      </main>
       <!-- Footer -->
-      <footer class="page-footer" style="margin-top: 15vh; width: 100vw;">
+      <footer class="page-footer" style="width: 100vw;">
         <div class="container">
           <div class="row">
             <div class="col l6 s12">

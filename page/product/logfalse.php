@@ -15,6 +15,7 @@
 </head>
 <body>
     <!-- Navigasi Bar Dashboard-->
+    <main>
     <div class="navbar-fixed">
         <nav>
           <div class="nav-wrapper">
@@ -43,6 +44,7 @@
             </div>
           </div>
       </div>
+      </main>
       <!-- Footer -->
       <footer class="page-footer" style="margin-top: 15vh; width: 100vw;">
         <div class="container">
