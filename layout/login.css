@@ -23,6 +23,7 @@ div.input-field{
     width: 100%;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 #particles-js{
@@ -31,4 +32,10 @@ div.input-field{
     height: 100vh;
     width: 100vw;
     background: #F2CEAD;
+}
+
+small{
+    font-size: 1vh;
+    font-weight: bold;
+    margin-left: -2vw;
 }

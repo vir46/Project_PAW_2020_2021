@@ -90,7 +90,7 @@
           <div class="buttoncontainer">
             <div class="ctn2">
               <button name="signup" type="submit" onclick="animasi()" class="btn btn-primary">Sign Up</button><br><br>
-              <small>Already have account ? <a href="../login/loginform.php">Login</a></small>
+              <small>Already have an account ? <a href="../login/loginform.php">Sign in</a></small>
             </div>
           </div>
           </form>

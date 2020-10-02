@@ -54,10 +54,12 @@
             </div>
           </div>
           <div class="submitct">
+            <div>
             <button class="btn waves-effect waves-light" type="submit" name="action">Log-in
               <i class="material-icons right">send</i>
-            </button>
+            </button><br><br>
             <small>New to this page ? <a href="../signup/signupform.php">Make an account</a></small>
+            </div>
           </div>
         </form>
       </div>
