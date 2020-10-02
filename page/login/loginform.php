@@ -57,6 +57,7 @@
             <button class="btn waves-effect waves-light" type="submit" name="action">Log-in
               <i class="material-icons right">send</i>
             </button>
+            <small>New to this page ? <a href="../signup/signupform.php">Make an account</a></small>
           </div>
         </form>
       </div>

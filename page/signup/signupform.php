@@ -26,7 +26,7 @@
             <ul class="right hide-on-med-and-down">
                 <li class="list-nav"><a class="link-nav active" href="../../index.php">Dashboard</a></li>
                 <li class="list-nav"><a class="link-nav" href="../product/logfalse.php">Product</a></li>
-                <li class="list-nav"><a class="link-nav" href="../loginlogout/loginform.php">Sign In</a></li>
+                <li class="list-nav"><a class="link-nav" href="../login/loginform.php">Sign In</a></li>
                 <li class="list-nav"><a class="link-nav" href="badges.html">Contact</a></li>
             </ul>
           </div>
@@ -90,7 +90,7 @@
           <div class="buttoncontainer">
             <div class="ctn2">
               <button name="signup" type="submit" onclick="animasi()" class="btn btn-primary">Sign Up</button><br><br>
-              <small>Already have account ? <a href="../loginlogout/loginform.php">Login</a></small>
+              <small>Already have account ? <a href="../login/loginform.php">Login</a></small>
             </div>
           </div>
           </form>

@@ -23,7 +23,7 @@
                 style="height: 30pt; margin: 10pt; margin-left:20pt ;"></a>
             <ul class="right hide-on-med-and-down">
                 <li class="list-nav"><a class="link-nav active" href="../../index.php">Dashboard</a></li>
-                <li class="list-nav"><a class="link-nav" href="../loginlogout/loginform.php">Sign In</a></li>
+                <li class="list-nav"><a class="link-nav" href="../login/loginform.php">Sign In</a></li>
                 <li class="list-nav"><a class="link-nav" href="../signup/signupform.php">Sign Up</a></li>
                 <li class="list-nav"><a class="link-nav" href="badges.html">Contact</a></li>
             </ul>
