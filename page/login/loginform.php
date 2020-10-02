@@ -28,7 +28,7 @@
                 <li class="list-nav"><a class="link-nav active" href="../../index.php">Dashboard</a></li>
                 <li class="list-nav"><a class="link-nav" href="../product/logfalse.php">Product</a></li>
                 <li class="list-nav"><a class="link-nav" href="../signup/signupform.php">Sign Up</a></li>
-                <li class="list-nav"><a class="link-nav" href="badges.html">Contact</a></li>
+                <li class="list-nav"><a class="link-nav" href="../contact/contactmain.php">Contact</a></li>
             </ul>
           </div>
         </nav>

@@ -21,7 +21,7 @@
                 <li class="list-nav"><a class="link-nav" href="page/product/logfalse.php">Product</a></li>
                 <li class="list-nav"><a class="link-nav" href="page/login/loginform.php">Sign In</a></li>
                 <li class="list-nav"><a class="link-nav" href="page/signup/signupform.php">Sign Up</a></li>
-                <li class="list-nav"><a class="link-nav" href="badges.html">Contact</a></li>
+                <li class="list-nav"><a class="link-nav" href="page/contact/contactmain.php">Contact</a></li>
             </ul>
           </div>
         </nav>
