@@ -36,7 +36,7 @@
       <main>
       <div class="cardform">
         <div class="cardform2">
-        <h1 class="ml2">Sunny mornings</h1>
+        <h1>Sign UP</h1>
         <div class="row">
         <form class="col s12" class="needs-validation" novalidate>
           <div class="row">
