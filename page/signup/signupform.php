@@ -36,60 +36,60 @@
       <main>
       <div class="cardform">
         <div class="cardform2">
-        <h1>Sign UP</h1>
+        <h1>Sign Up</h1>
         <div class="row">
-        <form class="col s12" class="needs-validation" novalidate>
+        <form class="col s12" class="needs-validation" action="../../proses/proses_signup.php" method="post" novalidate>
           <div class="row">
             <div class="input-field col s5">
-              <input id="firstname" type="text" class="validate" required>
+              <input name="firstname" type="text" class="input" required>
               <label for="firstname">First Name</label>
             </div>
             <div class="input-field col s5">
-              <input id="lastname" type="text" class="validate" required>
+              <input name="lastname" type="text" class="input" required>
               <label for="lastname">Last Name</label>
             </div>
           </div>
           <div class="row">
             <div class="input-field col s10">
-              <input id="username" type="text" class="validate" required>
+              <input name="username" type="text" class="input" required>
               <label for="username">Username</label>
             </div>
           </div>
           <div class="row">
             <div class="input-field col s10">
-              <input id="email" type="email" class="validate" required>
+              <input name="email" type="email" class="input" required>
               <label for="email">Email</label>
             </div>
           </div>
           <div class="row">
             <div class="input-field col s10">
-              <input id="password" type="password" class="validate" required>
+              <input name="password" type="password" class="input" required>
               <label for="password">Password</label>
             </div>
           </div>
           <div class="row">
             <p>
               <label>
-                <input name="group1" type="radio" checked />
+                <input name="group1" id="gender" type="radio" checked />
                 <span>Man</span>
               </label>
             </p>
           <p>
           <label>
-                <input name="group1" type="radio" />
+                <input name="group1" id="gender" type="radio" />
               <span>Girl</span>
             </label>
            </p>
           </div>
           <div class="row">
             <div class="input-field col s10">
-               <input id="birthdate" type="date" class="validate">
+               <input name="birthdate" type="date" class="input">
                <label for="birthdate">Date of Birth</label>
             </div>
           </div>
           <div class="buttoncontainer">
             <div class="ctn2">
-              <button name="signup" type="submit" onclick="animasi()" class="btn btn-primary">Sign Up</button><br><br>
+              <input name="signup" type="submit" value="SignUp" onclick="animasi()" class="btn btn-primary"></input><br><br>
               <small>Already have an account ? <a href="../login/loginform.php">Sign in</a></small>
             </div>
           </div>

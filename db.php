@@ -3,7 +3,7 @@
 $host = 'localhost'; 
 $user= "root";
 $pass= ""; 
-$name = "tubes_uts" ; 
+$name = "tubes_uts"; 
 
 $con =  mysqli_connect($host, $user, $pass, $name); 
 
