@@ -15,7 +15,7 @@
  $gender = $_POST['gender'];
     
   // ini query buat insert data ke database kita :3
-  $query = mysqli_query($con, "INSERT INTO users(username, password, nama, nim, ukm) VALUES ('$username' , '$firstname' , '$lastname' , '$email' , '$password' , '$birthdate' , '$gender')") or die(mysqli_error($con));
+  $query = mysqli_query($con, "INSERT INTO users(username, firstname, lastname, email, password, birthdate, gender) VALUES ('$username' , '$firstname' , '$lastname' , '$email' , '$password' , '$birthdate' , '$gender')") or die(mysqli_error($con));
    // ---------------------------------------------------------------------
     if($query){
     echo
