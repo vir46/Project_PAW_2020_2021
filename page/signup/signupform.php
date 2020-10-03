@@ -70,14 +70,14 @@
           <div class="row">
             <p>
               <label>
-                <input name="group1" id="gender" type="radio" checked />
-                <span>Man</span>
+                <input name="gender" value="male" id="gender" type="radio" checked />
+                <span>Male</span>
               </label>
             </p>
           <p>
           <label>
-                <input name="group1" id="gender" type="radio" />
-              <span>Girl</span>
+                <input name="gender" value="female" id="gender" type="radio" />
+              <span>Female</span>
             </label>
            </p>
           </div>
