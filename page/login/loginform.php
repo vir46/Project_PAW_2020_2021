@@ -38,26 +38,24 @@
       <div class="cardform">
       <div class="cardform2">
       <div class="row">
-        <form class="col s12">
+        <form class="col s12" action="../../proses/proses_login.php" method="post">
           <div class="row">
             <div class="input-field col s12">
               <i class="material-icons prefix">account_circle</i>
-              <input id="email" type="text" class="validate">
+              <input name="email" id="email" type="text" class="validate">
               <label for="email">E-mail</label>
             </div>
           </div>
           <div class="row">
             <div class="input-field col s12">
               <i class="material-icons prefix">fiber_pin</i>
-              <input id="icon_prefix" type="password" class="validate">
+              <input name="email" id="icon_prefix" type="password" class="validate">
               <label for="icon_prefix">Password</label>
             </div>
           </div>
           <div class="submitct">
             <div>
-            <button class="btn waves-effect waves-light" type="submit" name="action">Log-in
-              <i class="material-icons right">send</i>
-            </button><br><br>
+            <input class="btn waves-effect waves-light" type="submit" name="login"></input><br><br>
             <small>New to this page ? <a href="../signup/signupform.php">Make an account</a></small>
             </div>
           </div>
