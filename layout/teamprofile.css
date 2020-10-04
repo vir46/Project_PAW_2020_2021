@@ -84,3 +84,14 @@ h1{
 .container .prof:hover .info{
     opacity: 1; 
 }
+
+.button{
+    background: grey;
+    padding: .4vw;
+    border-radius: 25px;
+}
+
+.button a{
+    color: white;
+    font-weight: bold;
+}

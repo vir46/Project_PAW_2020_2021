@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="http://www.pngall.com/wp-content/uploads/2016/09/Musical-Notes-Free-Download-PNG.png" type="image/png" sizes="16x16">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <!-- <meta http-equiv="refresh" content="2;http://localhost:8080/PAW_UTS_Kelompok7/page/contact/teamprofile.php" /> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <link rel="stylesheet" href="../../layout/teamprofile.css">
     <title>Developer Team</title>
@@ -14,6 +13,11 @@
     <div class="containerweb">
         <div class="photoct">
             <h1>Place Your Mouse To The Photo For More Info</h1>
+            <div class="btncontainer">
+                <div class="button">
+                    <a href="contactmain.php">Go Back!</a>
+                </div>
+            </div>
             <div class="container">
             <div class="prof profile1">
                 <img class="img1" src="https://instagram.fsrg1-1.fna.fbcdn.net/v/t51.2885-19/s150x150/12135167_608761362611053_535226931_a.jpg?_nc_ht=instagram.fsrg1-1.fna.fbcdn.net&_nc_ohc=tuAzmY30o60AX-DmPF_&oh=d60ed529e5948307682e8b7afb08c9e4&oe=5FA127DD">

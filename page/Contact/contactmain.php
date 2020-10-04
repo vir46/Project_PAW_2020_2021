@@ -8,8 +8,7 @@
 </head>
 <body>
     <ul>
-        <li data-text="Team Profile"><a href="#">Team's Profile</a></li>
-        <li data-text="Contact Us"><a href="#">Contact Us</a></li>
+        <li data-text="Team Profile"><a href="teamprofile.php">Team's Profile</a></li>
         <li data-text="Store Profile"><a href="#">About Store</a></li>
         <li data-text="Dashboard"><a href="../../index.php">Back To Home</a></li>
     </ul>
