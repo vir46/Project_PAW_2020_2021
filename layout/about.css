@@ -1,0 +1,25 @@
+body{
+    background:#F2CEAD;
+    overflow-x: hidden;
+}
+
+.link-nav{
+    color: white;
+    font-weight: bolder;
+}
+
+.link-nav:hover{
+    color: yellow;
+    margin-top: -2px;
+}
+
+.list-nav:hover{
+    background: grey;
+}
+
+div.halaman{
+	text-align: center;
+    padding: 30px 20px;	
+}
+
+
