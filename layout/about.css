@@ -1,5 +1,4 @@
 body{
-    background:#F2CEAD;
     overflow-x: hidden;
 }
 
@@ -18,8 +17,68 @@ body{
 }
 
 div.halaman{
-	text-align: center;
-    padding: 30px 20px;	
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
+.block{
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    background: #000;
+    color: #fff;
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 230px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 3vh;
+}
 
+.block:before,.block:after{
+    content: '';
+    position: absolute;
+    top: -3px;
+    left: -3px;
+    width: calc(100% + 6px);
+    height: calc(100% + 6px);
+    background: linear-gradient(45deg, red, yellow, green, blue, yellow, purple);
+    z-index: -1;
+    background-size: 400%;
+    animation: borderbg 40s linear infinite;
+}
+@keyframes borderbg {
+    0%{
+        background-position: 0 0 ;
+    }
+    50%{
+        background-position: 400% 0;
+    }
+    100%{
+        background-position: 0 0 ;	
+    }
+}
+.block:after{
+    filter: blur(40px);
+}
+
+.block{
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    width: 30vw;
+}
+
+h2{
+    color: white;
+}
+
+.halaman p{
+    color: white;
+    font-weight: bold;
+}

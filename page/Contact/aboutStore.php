@@ -13,33 +13,22 @@
     <!--  -->
     <title>About Store</title>
 </head>
-<body>
-    <!-- Navigasi Bar Dashboard-->
-    <div class="navbar-fixed">
-        <nav>
-          <div class="nav-wrapper">
-            <a href="#!" class="brand-logo"><img class="logo-br" src="http://www.pngall.com/wp-content/uploads/2016/09/Musical-Notes-Free-Download-PNG.png" 
-                style="height: 30pt; margin: 10pt; margin-left:20pt ;"></a>
-            <ul class="right hide-on-med-and-down">
-                <li class="list-nav"><a class="link-nav" href="page/product/logfalse.php">Product</a></li>
-                <li class="list-nav"><a class="link-nav" href="page/loginlogout/loginform.php">Sign In</a></li>
-                <li class="list-nav"><a class="link-nav" href="page/signup/signupform.php">Sign Up</a></li>
-                <li class="list-nav"><a class="link-nav" href="page/contact/contact.php">Contact</a></li>
-            </ul>
-          </div>
-        </nav>
-      </div>
-
+<body style="background :#0d0f1b;">
+    <main>
     <div class="halaman">
 	    <h2>Music Instrumental Store</h2>
-            <img src="image.jpg" alt="gambar toko"  width="500" height="300" /><br>
+                  <div class="block">
+                    <img src="https://media.timeout.com/images/103428263/750/422/image.jpg"/><br>
+                </div>
                 <p>Music Instrumental Store merupakan Toko Alat Musik terbesar di Indonesia dan juga bekerja sama dengan produser musik terkenal. </p>
                 <p>Selain itu, Toko kami juga menyediakan banyak pilihan alat musik yang berkualitas dengan harga terjangkau. </p>
                 <p>Kami menyediakan berbagai jenis alat musik mulai dari guitar, bass, keyboard, drum, perkusi  dan peralatan ligting.</p>
                 <p>Barang yang dipesan bisa kami kirimkan ke seluruh wilayah yang terjangkau oleh beberapa jaringan ekspedisi yang hampir meliputi seluruh wilayah Indonesia.</p>
                 <br>
+                <h3 style="color: white;">Google Maps</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3967.023349649463!2d106.78871115108761!3d-6.127560061767228!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6a1d8d0db9e06d%3A0x54cb9f1766bde458!2sEmporium%20Pluit%20Mall!5e0!3m2!1sid!2sid!4v1601815032660!5m2!1sid!2sid" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
     </div>
-
+    </main>
    <!-- Footer -->
    <footer class="page-footer" style="margin-top: 15vh; width: 100vw;">
         <div class="container">
@@ -64,7 +53,5 @@
           </div>
         </div>
       </footer>
-
-
 </body>
 </html>
