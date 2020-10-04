@@ -9,7 +9,11 @@
 <body>
     <ul>
         <li data-text="Team Profile"><a href="teamprofile.php">Team's Profile</a></li>
+<<<<<<< HEAD
         <li data-text="Store Profile"><a href="storeprofile.php">About Store</a></li>
+=======
+        <li data-text="Store Profile"><a href="aboutStore.php">About Store</a></li>
+>>>>>>> 545e38a2363b7e13e54fe61270c81e49dbb4eae3
         <li data-text="Dashboard"><a href="../../index.php">Back To Home</a></li>
     </ul>
 </body>
