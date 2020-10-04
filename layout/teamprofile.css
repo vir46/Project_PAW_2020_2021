@@ -1,0 +1,86 @@
+body{
+    min-height: 100vh;
+    background: black;
+    overflow-x: hidden;
+}
+
+.containerweb{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.photoct{
+    height: 100vh;
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background: black;
+    overflow: hidden;
+}
+
+img{
+    width: 150px;
+    height: 150px;
+}
+
+.prof{
+    margin-left: 3vw;
+    margin-right: 3vw;
+    width: 10vw;
+}
+
+.testdiv{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    position: relative;
+    font-size: 3vh;
+    font-style: italic;
+    color: white;
+    animation: floating 3s infinite;
+}
+
+.container{
+    margin-top: 20vh;
+    margin-bottom: vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes floating{
+    0% {top: 0px;}
+    50% {top: 15px;}
+    100%{top: 0px;}
+}
+
+
+.info{
+    display: flex;
+    font-weight: bold;
+    width: 10vw;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    opacity: 0;
+}
+
+.container .prof img{
+    opacity: 0.3;
+}
+
+.container .prof:hover img{
+    opacity: 1; 
+}
+
+.container .prof:hover .info{
+    opacity: 1; 
+}

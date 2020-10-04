@@ -112,7 +112,7 @@
                 <div class="col s12 m7">
                   <div class="card">
                     <div class="card-image">
-                      <img class="card-image" src="https://cdns.klimg.com/merdeka.com/i/w/news/2020/06/25/1191420/540x270/10-potret-eka-gustiwana-lathi-musisi-gabungkan-musik-elektronik-budaya-daerah.jpg">
+                      <img class="card-image" src="https://media.suara.com/pictures/970x544/2020/07/10/94473-eka-gustiwana-instagramatekagustiwana.jpg">
                       <span class="card-title" style="color: black; font-weight: bold;
                       -webkit-text-stroke: 0.6px white;">Music Composer</span>
                     </div>
