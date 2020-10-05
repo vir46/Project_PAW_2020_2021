@@ -25,7 +25,7 @@
     
     if(mysqli_num_rows($query) > 0){
         echo '<script>
-                alert("Email sudah terdaftar");
+                alert("Email sudah terdaftar"); window.location = "../page/signup/signupform.php"
               </script>';
     }else {
         $sql = "INSERT INTO users (username,firstname,lastname,email,password,gender,birthdate,verif_code) VALUES('$username','$firstname','$lastname','$email','$password','$gender','$birthdate','$code')";
@@ -78,7 +78,7 @@
 
         //Read an HTML message body from an external file, convert referenced images to embedded,
         //convert HTML into a basic plain-text alternative body
-        $body = "Hello, ".$firstname."<br>Plase verif your email before access our website : <br> http://localhost:8080/Project_PAW_2020_2021/proses/confirmEmail.php?code=".$code;
+        $body = "Hello, ".$firstname."<br>Plase verify your email before access our website, click this link below: <br> http://localhost:8080/Project_PAW_2020_2021/proses/confirmEmail.php?code=".$code;
         $mail->Body = $body;
         //Replace the plain text body with one created manually
         $mail->AltBody = 'Verification Account';

@@ -16,10 +16,13 @@
                     alert("Sign Up Success"); window.location = "../index.php"
                 </script>';
             }else{
-                echo "VERIFIKASI GAGAL ERROR : ".$query;
+                echo "VERIFICATION ERROR : ".$query;
             }
         }else {
-            echo "CODE TIDAK DITEMUKAN ATAU TIDAK VALID";
+            echo
+            '<script>
+                    alert("Code was not found or invalid"); window.location = "../index.php"
+            </script>'
         }
     }else {
         echo "....";
