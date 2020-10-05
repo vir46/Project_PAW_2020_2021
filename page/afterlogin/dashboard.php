@@ -5,7 +5,7 @@
  }else {
  include('../../db.php');
  }
- echo '
+echo '
  <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -77,8 +77,5 @@
             </a>
         </li>
     </ul>
-</div>
-</body>
-</html>
 '
 ?>
