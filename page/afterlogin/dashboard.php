@@ -15,8 +15,8 @@ echo '
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="../../layout/dash.css">
-    <script type="text/javascript" src="../../script/dashnav.js"></script>
+    <link rel="stylesheet" href="css/dash.css">
+    <script type="text/javascript" src="/script/dashnav.js"></script>
     <title>Document</title>
 </head>
 <body>
@@ -77,5 +77,6 @@ echo '
             </a>
         </li>
     </ul>
+</div>
 '
 ?>

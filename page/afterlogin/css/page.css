@@ -1,3 +1,10 @@
+.navigasitest{
+    position: absolute;
+    top: 0;
+    margin-left: 10vw;
+    margin-top: 3vh;
+}
+
 body{
     width: 100%;
     height: 100vh;
@@ -7,18 +14,20 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #041a18;
+    background-color: #F2CEAD;
 }
+a
 .carousel{
+    display: flex;
+    z-index: -99;
     position: absolute !important;
-    width: 100% !important;
+    width: 100vw !important;
     height: 100vh !important;
     perspective: 600px !important;
 }
 .carousel-item{
     width: 400px !important;
-    
-}  
+}
 .carousel-item h1{
     margin: 0;
     text-align: center;
@@ -35,12 +44,21 @@ body{
 .conttitle{
     position: relative;
     margin-bottom: 60vh;
+    margin-right: 40vw;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .conttitle h1{
-    color: white;
+    color: black;
     font-weight: bold;
+}
+
+.test123{
+    width: fit-content;
+}
+
+.menuicon{
+    font-size: 5vh;
 }

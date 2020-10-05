@@ -22,7 +22,7 @@
             echo
             '<script>
                     alert("Code was not found or invalid"); window.location = "../index.php"
-            </script>'
+            </script>';
         }
     }else {
         echo "....";
