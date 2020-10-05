@@ -1,15 +1,15 @@
 <?php
  include '../dashboard.php';
 ?>
-<!DOCTYPE html>
+</div>
+<!-- <!DOCTYPE html>
 <html>
-<head>
+<head> -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <title>Online Store Website</title>
     <link rel="stylesheet" href="../css/page.css">
     <script src="../script/page.js"></script>
-</head>
-<body>
+<!-- </head>
+<body> -->
     <div class="conttitle">
         <h1>Product Carousel</h1>
     </div>
