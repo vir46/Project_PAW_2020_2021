@@ -38,7 +38,7 @@
       <div class="cardform">
       <div class="cardform2">
       <div class="row">
-        <form class="col s12" action="../../proses/proses_login.php" method="post">
+        <form class="col s12" action="../../proses/loginProses.php" method="post">
           <div class="row">
             <div class="input-field col s12">
               <i class="material-icons prefix">account_circle</i>
