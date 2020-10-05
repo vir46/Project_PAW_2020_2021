@@ -38,7 +38,7 @@
         <div class="cardform2">
         <h1>Sign Up</h1>
         <div class="row">
-        <form class="col s12" class="needs-validation" action="../../proses/proses_signup.php" method="post" novalidate>
+        <form class="col s12" class="needs-validation" action="../../proses/registerProses.php" method="post" novalidate>
           <div class="row">
             <div class="input-field col s5">
               <input name="firstname" type="text" class="input" required>
@@ -89,7 +89,7 @@
           </div>
           <div class="buttoncontainer">
             <div class="ctn2">
-              <input name="signup" type="submit" value="SignUp" onclick="animasi()" class="btn btn-primary"></input><br><br>
+              <input name="register" type="submit" value="SignUp" onclick="animasi()" class="btn btn-primary"></input><br><br>
               <small>Already have an account ? <a href="../login/loginform.php">Sign in</a></small>
             </div>
           </div>
