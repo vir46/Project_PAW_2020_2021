@@ -1,0 +1,22 @@
+#navbar{
+    transition: all 1s;
+    position: fixed;
+    margin-left: 260px;
+    display: flex;
+    background: #f8f9fe;
+    height: 65px;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    padding: 0px 30px;
+}
+
+.backgroundAll{
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background: whitesmoke;
+    z-index: -1;
+}
