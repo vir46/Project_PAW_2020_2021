@@ -16,7 +16,7 @@
                 $_SESSION['isLogin'] = true;
                 $_SESSION['user'] = $user;
     
-                header("location: ../index.php");
+                header("location: ../page/afterlogin/page/page.php");
             }else {
                 echo 
                 '<script>
