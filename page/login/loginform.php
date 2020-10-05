@@ -49,7 +49,7 @@
           <div class="row">
             <div class="input-field col s12">
               <i class="material-icons prefix">fiber_pin</i>
-              <input name="email" id="icon_prefix" type="password" class="validate">
+              <input name="password" id="icon_prefix" type="password" class="validate">
               <label for="icon_prefix">Password</label>
             </div>
           </div>
